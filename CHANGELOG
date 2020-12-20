@@ -1,0 +1,3 @@
+# 2020-12-19
+1. Download the IPA keyboard layout from https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=IPA-MACkbd&filename=IPA-MACkbd.dmg
+2. Generate the Colemak and QWERTY derivatives using a script and add them here.
