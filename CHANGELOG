@@ -1,3 +1,8 @@
 # 2020-12-19
 1. Download the IPA keyboard layout from https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=IPA-MACkbd&filename=IPA-MACkbd.dmg
 2. Generate the Colemak and QWERTY derivatives using a script and add them here.
+
+# 2020-12-19 v1.51 (2)
+Pressing a dead key then a space should not output two characters. It should not output a space. It should output the dead key's terminator only. This is implemented, and prements overuse of the backspace key (when typing (".com")).
+
+- disabled the dead key on the full stop/period key. There were no characters available through it. In essence, I could not find its use.

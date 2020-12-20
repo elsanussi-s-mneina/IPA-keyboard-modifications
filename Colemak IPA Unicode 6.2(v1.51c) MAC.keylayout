@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-
-<keyboard group="126" id="-226" name="IPA Unicode 6.2(v1.5) MAC Dvorak" maxout="2">
+<!-- this is a modification of 
+the IPA Unicode 6.2 v1.5 keyboard from
+https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=IPA-MACkbd&filename=IPA-MACkbd.dmg
+-->
+<keyboard group="126" id="-225" name="IPA Unicode 6.2(v1.51c) MAC Colemak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" modifiers="mods" mapSet="maps" />
 	</layouts>
@@ -27,55 +30,55 @@
 		<!-- default -->
 		<keyMap index="0">
 			<key code="0" action="dk:a" />
-			<key code="1" action="dk:o" />
-			<key code="2" action="dk:e" />
-			<key code="3" action="dk:u" />
-			<key code="4" action="dk:d" />
-			<key code="5" action="dk:i" />
-			<key code="6" output=";" />
-			<key code="7" action="dk:q" />
-			<key code="8" action="dk:j" />
-			<key code="9" action="dk:k" />
+			<key code="1" action="dk:r" />
+			<key code="2" action="dk:s" />
+			<key code="3" action="dk:t" />
+			<key code="4" action="dk:h" />
+			<key code="5" action="dk:d" />
+			<key code="6" action="dk:z" />
+			<key code="7" action="dk:x" />
+			<key code="8" action="dk:c" />
+			<key code="9" action="dk:v" />
 			<key code="10" output="&#x00a7;" />
-			<key code="11" action="dk:x" />
-			<key code="12" action="dk:x27" />
-			<key code="13" action="dk:x2C" />
-			<key code="14" action="dk:x2E" />
+			<key code="11" action="dk:b" />
+			<key code="12" action="dk:q" />
+			<key code="13" action="dk:w" />
+			<key code="14" action="dk:f" />
 			<key code="15" action="dk:p" />
-			<key code="16" action="dk:f" />
-			<key code="17" action="dk:y" />
+			<key code="16" action="dk:j" />
+			<key code="17" action="dk:g" />
 			<key code="18" action="dk:1" />
 			<key code="19" action="dk:2" />
 			<key code="20" action="dk:3" />
 			<key code="21" action="dk:4" />
 			<key code="22" action="dk:6" />
 			<key code="23" action="dk:5" />
-			<key code="24" action="dk:x5D" />
+			<key code="24" action="dk:x3D" />
 			<key code="25" action="dk:9" />
 			<key code="26" action="dk:7" />
-			<key code="27" action="dk:x5B" />
+			<key code="27" action="dk:x2D" />
 			<key code="28" action="dk:8" />
 			<key code="29" action="dk:0" />
-			<key code="30" action="dk:x3D" />
-			<key code="31" action="dk:r" />
-			<key code="32" action="dk:g" />
-			<key code="33" action="dk:x2F" />
-			<key code="34" action="dk:c" />
-			<key code="35" action="dk:l" />
+			<key code="30" action="dk:x5D" />
+			<key code="31" action="dk:y" />
+			<key code="32" action="dk:l" />
+			<key code="33" action="dk:x5B" />
+			<key code="34" action="dk:u" />
+			<key code="35" output=";" />
 			<key code="36" output="&#x000d;" />
-			<key code="37" action="dk:n" />
-			<key code="38" action="dk:h" />
-			<key code="39" action="dk:x2D" />
-			<key code="40" action="dk:t" />
-			<key code="41" action="dk:s"/>
+			<key code="37" action="dk:i" />
+			<key code="38" action="dk:n" />
+			<key code="39" action="dk:x27" />
+			<key code="40" action="dk:e" />
+			<key code="41" action="dk:o"/>
 			<key code="42" output="\" />
-			<key code="43" action="dk:w" />
-			<key code="44" action="dk:z" />
-			<key code="45" action="dk:b" />
+			<key code="43" action="dk:x2C" />
+			<key code="44" action="dk:x2F" />
+			<key code="45" action="dk:k" />
 			<key code="46" action="dk:m" />
-			<key code="47" action="dk:v" />
+			<key code="47" action="dk:x2E" />
 			<key code="48" output="&#x0009;" />
-			<key code="49" output=" " />
+			<key code="49" action="spaceAction" />
 			<key code="50" output="`" />
 			<key code="51" output="&#x0008;" />
 			<key code="52" output="&#x0003;" />
@@ -145,55 +148,55 @@
 		<!-- shift -->
 		<keyMap index="1">
 			<key code="0" action="dk:A" />
-			<key code="1" action="dk:O" />
-			<key code="2" action="dk:E" />
-			<key code="3" action="dk:U" />
-			<key code="4" action="dk:D" />
-			<key code="5" action="dk:I" />
-			<key code="6" action="dk:x3A" />
-			<key code="7" action="dk:Q" />
-			<key code="8" action="dk:J" />
-			<key code="9" action="dk:K" />
+			<key code="1" action="dk:R" />
+			<key code="2" action="dk:S" />
+			<key code="3" action="dk:T" />
+			<key code="4" action="dk:H" />
+			<key code="5" action="dk:D" />
+			<key code="6" action="dk:Z" />
+			<key code="7" action="dk:X" />
+			<key code="8" action="dk:C" />
+			<key code="9" action="dk:V" />
 			<key code="10" output="&#x00b1;" />
-			<key code="11" action="dk:X" />
-			<key code="12" action="dk:x22" />
-			<key code="13" action="dk:x3C" />
-			<key code="14" action="dk:x3E" />
+			<key code="11" action="dk:B" />
+			<key code="12" action="dk:Q" />
+			<key code="13" action="dk:W" />
+			<key code="14" action="dk:F" />
 			<key code="15" action="dk:P" />
-			<key code="16" action="dk:F" />
-			<key code="17" action="dk:Y" />
+			<key code="16" action="dk:J" />
+			<key code="17" action="dk:G" />
 			<key code="18" action="dk:x21" />
 			<key code="19" action="dk:x40" />
 			<key code="20" action="dk:x23" />
 			<key code="21" action="dk:x24" />
 			<key code="22" action="dk:x5E" />
 			<key code="23" action="dk:x25" />
-			<key code="24" action="dk:x7D" />
+			<key code="24" action="dk:x2B" />
 			<key code="25" action="dk:x28" />
 			<key code="26" action="dk:x26" />
-			<key code="27" action="dk:x7B" />
+			<key code="27" action="dk:x5F" />
 			<key code="28" action="dk:x2A" />
 			<key code="29" action="dk:x29" />
-			<key code="30" action="dk:x2B" />
-			<key code="31" action="dk:R" />
-			<key code="32" action="dk:G" />
-			<key code="33" action="dk:x3F" />
-			<key code="34" action="dk:C" />
-			<key code="35" action="dk:L" />
+			<key code="30" action="dk:x7D" />
+			<key code="31" action="dk:Y" />
+			<key code="32" action="dk:L" />
+			<key code="33" action="dk:x7B" />
+			<key code="34" action="dk:U" />
+			<key code="35" action="dk:x3A" />
 			<key code="36" output="&#x000d;" />
-			<key code="37" action="dk:N" />
-			<key code="38" action="dk:H" />
-			<key code="39" action="dk:x5F" />
-			<key code="40" action="dk:T" />
-			<key code="41" action="dk:S"/>
+			<key code="37" action="dk:I" />
+			<key code="38" action="dk:N" />
+			<key code="39" action="dk:x22" />
+			<key code="40" action="dk:E" />
+			<key code="41" action="dk:O"/>
 			<key code="42" action="dk:x7C" />
-			<key code="43" action="dk:W" />
-			<key code="44" action="dk:Z" />
-			<key code="45" action="dk:B" />
+			<key code="43" action="dk:x3C" />
+			<key code="44" action="dk:x3F" />
+			<key code="45" action="dk:K" />
 			<key code="46" action="dk:M" />
-			<key code="47" action="dk:V" />
+			<key code="47" action="dk:x3E" />
 			<key code="48" output="&#x0009;" />
-			<key code="49" output=" " />
+			<key code="49" action="spaceAction" />
 			<key code="50" action="dk:x7E" />
 			<key code="51" output="&#x0008;" />
 			<key code="52" output="&#x0003;" />
@@ -841,6 +844,8 @@
 			<when state="dk:x7E" output="" />
 		</action>
 		<action id="dk:x2E">
+			<when state="none" output="." />
+			<!-- 
 			<when state="none" next="dk:x2E" />
 			<when state="dk:x23" next="dk:x2E" />
 			<when state="dk:x26" next="dk:x2E" />
@@ -855,7 +860,7 @@
 			<when state="dk:x40+x2E" next="dk:x2E" output="&#x0307;" />
 			<when state="dk:x5E" next="dk:x2E" />
 			<when state="dk:x7C" next="dk:x2E" />
-			<when state="dk:x7E" next="dk:x2E" />
+			<when state="dk:x7E" next="dk:x2E" /> -->
 		</action>
 		<action id="dk:x2F">
 			<when state="none" output="&#x002f;" />
@@ -2165,6 +2170,10 @@
 			<when state="dk:x5E" next="dk:x7E" />
 			<when state="dk:x7C" next="dk:x7E" />
 			<when state="dk:x7E" next="dk:x7E" />
+		</action>
+		<action id="spaceAction">
+			<when state="none" output=" " />
+			<!-- otherwise the terminator alone will be put without a space. -->
 		</action>
 	</actions>
 
