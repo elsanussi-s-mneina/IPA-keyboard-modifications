@@ -6,3 +6,7 @@
 Pressing a dead key then a space should not output two characters. It should not output a space. It should output the dead key's terminator only. This is implemented, and prements overuse of the backspace key (when typing (".com")).
 
 - disabled the dead key on the full stop/period key. There were no characters available through it. In essence, I could not find its use.
+
+
+# 2020-12-22 v1.51 Workman
+- implement the same deadkeys and output values except layed out according to the workman layout (for Mac OS Catalina only right now.)
