@@ -10,3 +10,6 @@ Pressing a dead key then a space should not output two characters. It should not
 
 # 2020-12-22 v1.51 Workman
 - implement the same deadkeys and output values except layed out according to the workman layout (for Mac OS Catalina only right now.)
+
+# 2020-12-22 v1.51 Dvorak with Dvorak commands
+- implement a DVORAK keylayout that does not have QWERTY commands, but instead has DVORAK commands.
