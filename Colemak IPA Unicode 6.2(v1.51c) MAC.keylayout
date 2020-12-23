@@ -8,7 +8,9 @@ https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=IPA
 This one uses the Colemak layout as the macro-layout.
 It uses QWERTY for command keys.
 -->
-<keyboard group="126" id="-225" name="IPA Unicode 6.2(v1.52c) MAC Colemak" maxout="2">
+<keyboard group="126" id="-225" name="IPA Colemak - QWERTY ⌘" maxout="2">
+	<!--Version Numbers: Unicode 6.2(v1.51c) -->
+
 	<layouts>
 		<layout first="0" last="0" modifiers="mods" mapSet="maps" />
 	</layouts>

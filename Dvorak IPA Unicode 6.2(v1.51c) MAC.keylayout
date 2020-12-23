@@ -9,7 +9,9 @@ It uses QWERTY for command keys.
 
 -->
 
-<keyboard group="126" id="-226" name="IPA Unicode 6.2(v1.52c) MAC Dvorak" maxout="2">
+<keyboard group="126" id="-226" name="IPA Dvorak - QWERTY ⌘" maxout="2">
+	<!--Version Numbers: Unicode 6.2(v1.51c) -->
+
 	<layouts>
 		<layout first="0" last="0" modifiers="mods" mapSet="maps" />
 	</layouts>

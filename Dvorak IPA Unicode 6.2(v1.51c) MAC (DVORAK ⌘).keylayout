@@ -8,7 +8,9 @@ This one uses the DVORAK layout as the macro-layout.
 It uses DVORAK for command keys also.
 -->
 
-<keyboard group="126" id="-227" name="IPA Unicode 6.2(v1.52c) MAC Dvorak (DVORAK ⌘)" maxout="2">
+<keyboard group="126" id="-227" name="IPA Dvorak" maxout="2">
+	<!--Version Numbers: Unicode 6.2(v1.51c) -->
+
 	<layouts>
 		<layout first="0" last="0" modifiers="mods" mapSet="maps" />
 	</layouts>

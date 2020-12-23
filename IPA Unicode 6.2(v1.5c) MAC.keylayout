@@ -5,7 +5,8 @@ the IPA Unicode 6.2 v1.5 keyboard from
 https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=IPA-MACkbd&filename=IPA-MACkbd.dmg
 -->
 
-<keyboard group="126" id="-224" name="IPA Unicode 6.2(v1.51c) MAC" maxout="2">
+<keyboard group="126" id="-224" name="IPA QWERTY" maxout="2">
+	<!--Version Numbers: Unicode 6.2(v1.51c) -->
 	<layouts>
 		<layout first="0" last="0" modifiers="mods" mapSet="maps" />
 	</layouts>

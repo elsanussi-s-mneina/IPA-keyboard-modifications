@@ -3,7 +3,7 @@
 2. Generate the Colemak and QWERTY derivatives using a script and add them here.
 
 # 2020-12-19 v1.51 (2)
-Pressing a dead key then a space should not output two characters. It should not output a space. It should output the dead key's terminator only. This is implemented, and prements overuse of the backspace key (when typing (".com")).
+Pressing a dead key then a space should not output two characters. It should not output a space. It should output the dead key's terminator only. This is implemented, and prevents overuse of the backspace key (when typing (".com")).
 
 - disabled the dead key on the full stop/period key. There were no characters available through it. In essence, I could not find its use.
 
@@ -14,6 +14,11 @@ Pressing a dead key then a space should not output two characters. It should not
 # 2020-12-22 v1.51 Dvorak with Dvorak commands
 - implement a DVORAK keylayout that does not have QWERTY commands, but instead has DVORAK commands.
 
-# 2020-12-19 v1.52 
+# 2020-12-23 v1.52 
 Once again the dead keys are outputing a space when they should not be. This fixes it (by defining the spaceAction fully).
 Pressing a dead key then a space should not output two characters. It should not output a space. It should output the dead key's regular output value only.
+
+
+# 2020-12-23
+1. Shorten the keyboard layout names, so that they fit on the menu.
+2. Put version number in comment so that keyboard layout name is shorter.
