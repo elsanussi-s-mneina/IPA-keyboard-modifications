@@ -13,3 +13,7 @@ Pressing a dead key then a space should not output two characters. It should not
 
 # 2020-12-22 v1.51 Dvorak with Dvorak commands
 - implement a DVORAK keylayout that does not have QWERTY commands, but instead has DVORAK commands.
+
+# 2020-12-19 v1.52 
+Once again the dead keys are outputing a space when they should not be. This fixes it (by defining the spaceAction fully).
+Pressing a dead key then a space should not output two characters. It should not output a space. It should output the dead key's regular output value only.

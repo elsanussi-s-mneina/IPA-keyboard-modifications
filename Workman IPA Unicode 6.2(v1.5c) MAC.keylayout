@@ -2169,6 +2169,21 @@ https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=IPA
 		<action id="spaceAction">
 			<when state="none" output=" " />
 			<!-- otherwise the terminator alone will be put without a space. -->
+			<!-- otherwise the terminator alone will be put without a space. For some reason, it does not output the terminator alone. But instead outputs the terminator followed by a space. This is not the usual way dead keys work. Therefore I added more lines here to fix that problem.  -->
+			<when state="dk:x23" output="#" />
+			<when state="dk:x26" output="&#x0026;" />
+			<when state="dk:x2E" output="&#x002e;" />
+			<when state="dk:x3C" output="&#x003C;" />
+			<when state="dk:x3C+x2E" output="&#x007c;" />
+			<when state="dk:x3C+I" output="&#x1d7b;" />
+			<when state="dk:x3D" output="=" />
+			<when state="dk:x3D+x2E" output="&#x2016;" />
+			<when state="dk:x3E" output=">" />
+			<when state="dk:x40" output="@" />
+			<when state="dk:x40+x2E" output="&#x0307;" />
+			<when state="dk:x5E" output="^" />
+			<when state="dk:x7C" output="|" />
+			<when state="dk:x7E" output="~" />
 		</action>
 	</actions>
 
