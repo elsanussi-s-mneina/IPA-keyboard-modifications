@@ -22,3 +22,8 @@ Pressing a dead key then a space should not output two characters. It should not
 # 2020-12-23
 1. Shorten the keyboard layout names, so that they fit on the menu.
 2. Put version number in comment so that keyboard layout name is shorter.
+
+
+# 2021-01-18
+1. rename file "Dvorak IPA Unicode 6.2(v1.51c) MAC (DVORAK ⌘).keylayout" to "Dvorak IPA.keylayout" 
+2. fix broken command plus command.
